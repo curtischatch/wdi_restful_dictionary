@@ -9,4 +9,8 @@ class EntriesController < ApplicationController
     render :show
   end
 
+  def new
+    render :new
+  end
+
 end
